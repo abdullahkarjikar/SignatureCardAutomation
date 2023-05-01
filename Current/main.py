@@ -23,7 +23,7 @@ try:
     )
     username.send_keys('abdulla.karjikar@okstate.edu')
     password = driver.find_element("xpath", "//*[@id='password']")
-    password.send_keys('Abdul@678')
+    password.send_keys(password)
     driver.find_element("xpath", '/html/body/main/div/div/div/form/div[3]/button').click()
 
     try:
